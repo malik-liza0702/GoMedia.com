@@ -1,0 +1,98 @@
+.container{
+    width:100%;
+    height:100vh;
+    overflow-x: hidden;
+    font-family:"Poppins",serif;
+}
+.home-image{
+    width:100%;
+    object-fit: cover;
+    height:90vh;
+    position:relative;
+    margin-top:0.5rem;
+}
+.home-div{
+    top:25%;
+    left:4%;
+    position:absolute;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.home-div h1{
+    color:white;
+    font-size: 3rem;;
+    font-weight:700;
+
+}
+.home-buttons{
+    width:100%;
+}
+.homeButton{
+   
+    padding:0.8rem;
+    border:none;
+    border-radius:0.2rem;
+    font-size:1.1rem;
+    font-weight: 500;
+    font-family: "Poppins",serif;
+    background-color:#ca1980;
+    margin:1rem;
+    color:white;
+}
+/* --------------------------------------------media----------------------------- */
+.media-description{
+    display:flex;
+    padding:3rem;
+}
+.media-left{
+    width:50%;
+}
+.media-left h2{
+    font-size:2.5rem; ;
+    color:rgb(65, 65, 65);
+    margin:1rem;
+}
+.media-left p{
+    font-size: 1rem;
+    margin-left:1rem;
+}
+.mediaa {
+    color:#ca1980;
+    font-family: "Poppins",serif;
+    margin:1rem;
+    font-size: 1.2rem;
+}
+.media-right{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+.media-right-image{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.media-image{
+    margin-left:3rem;
+    height:20rem;
+}
+/* --------------------------------leaders-container-------------------- */
+.leaders{
+    padding:3rem;
+    background-color:#FAFAFA;
+    
+}
+.leaders-heading h2{
+    font-size: 2rem;;
+    text-align: center;
+    margin:1rem;
+}
+.leaders-description p{
+    text-align: center;
+}

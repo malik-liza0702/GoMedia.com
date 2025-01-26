@@ -1,0 +1,51 @@
+.contact{
+  font-family: "Poppins",serif;
+
+}
+.contact-us{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:5rem;
+    font-family: "Poppins",serif;
+    flex-direction: column;
+    
+}
+.contact-us h1{
+    font-size: 3rem;
+    /* margin-top:2rem; */
+    color: #383838;
+}
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    max-width:35rem;
+    border-radius: 0.5rem;
+    padding:3rem;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    gap:0.5rem;
+    background-color: whitesmoke;
+    padding-right: 4.5rem;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    font-family: "Poppins",serif;
+  /* border-color: #007bff; */
+  /* box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); */
+}
+
+

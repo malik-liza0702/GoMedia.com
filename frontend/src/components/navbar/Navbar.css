@@ -1,0 +1,27 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem;
+    /* position: fixed; */
+    /* width:100%; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    font-size: 3rem;
+    color:#ca1980;
+    font-family: "Clicker Script", serif;
+    font-weight: 800;
+}
+.nav-item{
+    display:flex;
+}
+.item{
+    list-style-type: none;
+    margin:1rem;
+}
+.item Link{
+    text-decoration: none;
+    color:black
+
+}

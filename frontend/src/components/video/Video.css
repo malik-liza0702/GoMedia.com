@@ -1,0 +1,138 @@
+.video-container {
+    background-color:#222222;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    font-family: "Inter", serif;
+    color: #ffffff;
+    gap: 2rem;
+  }
+  
+  .video-left {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .video-heading {
+    width: 100%;
+  }
+  
+  .video-heading h2 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .video-description p {
+    font-weight: 100;
+    margin-top: 0.5rem;
+  }
+  
+  .video-list {
+    margin: 1rem;
+  }
+  
+  .video {
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .video-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-text {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .video-text h2 {
+    font-weight: 500;
+  }
+  
+  .video-text p {
+    margin-top: 0.5rem;
+    font-weight: 100;
+  }
+  
+  .video-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-div {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-div img {
+    height: 20rem;
+    width: 100%;
+    max-width: 30rem;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .video-container {
+      flex-direction: column;
+      padding: 2rem;
+    }
+  
+    .video-left {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .video-heading h2 {
+      text-align: center;
+      font-size: 1.8rem;
+    }
+  
+    .video-list {
+      margin: 1rem 0;
+    }
+  
+    .video {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .video-right {
+      margin-top: 2rem;
+    }
+  
+    .image-div img {
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .video-heading h2 {
+      font-size: 1.5rem;
+    }
+  
+    .video-text h2 {
+      font-size: 1rem;
+    }
+  
+    .video-text p {
+      font-size: 0.9rem;
+    }
+  }
+  
+

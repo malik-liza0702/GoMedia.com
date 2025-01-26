@@ -1,0 +1,180 @@
+.services{
+    background-color:#FAFAFA;
+    ;
+}
+.services-heading{
+    display:flex;
+    flex-direction: column;
+    padding:2rem;
+
+}
+.heading{
+    font-family: "Poppins",serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading p{
+    font-size: 0.8rem;
+    color:#EB8D15;
+
+}
+.heading h3{
+    font-size: 2rem;
+    color:#272D37;
+    font-weight: 700;
+
+}
+.card-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-column{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card{
+    height:16rem;
+    width:18.08rem;
+    background-color:#FAFAFA;
+    border:1px solid #E5E5E5;
+    display:flex;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:1rem;
+
+}
+.symbol,.service-heading,.service-description,.learn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:0.3rem;
+    padding:0.3rem;
+    font-family: "Poppins",serif;
+}
+.service-heading{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+.service-description p{
+    text-align: center;
+    font-size:0.9rem;
+    font-weight: 300;
+    color:#282728;
+}
+.learn{
+    font-size: 0.8rem;
+    color:#001038;
+    display: flex;
+    align-items: center;
+}
+.learn img{
+    margin: 0.3rem;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+}
+
+@media (max-width: 1024px) {
+    .services-heading {
+      padding: 1.5rem;
+    }
+  
+    .heading h3 {
+      font-size: 1.8rem; 
+    }
+  
+    .card-container {
+      flex-wrap: wrap; 
+      justify-content: center;
+      gap: 1rem; 
+    }
+  
+    .card {
+      width: 16rem; 
+      height: auto; 
+      margin: 0.8rem;
+      padding: 0.8rem;
+    }
+  
+    .service-description p {
+      font-size: 0.8rem;
+    }
+  
+    .learn {
+      font-size: 0.7rem; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .services-heading {
+      padding: 1rem;
+    }
+  
+    .heading h3 {
+      font-size: 1.5rem; 
+    }
+  
+    .card-container {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%; 
+      margin: 0.5rem 0; 
+    }
+  
+    .service-description p {
+      font-size: 0.75rem; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .services-heading {
+      padding: 0.5rem;
+    }
+  
+    .heading p {
+      font-size: 0.7rem; 
+    }
+  
+    .heading h3 {
+      font-size: 1.2rem; 
+    }
+  
+    .card {
+      width: 95%; 
+      padding: 0.5rem; 
+    }
+  
+    .symbol img {
+      max-width: 50px; 
+    }
+  
+    .service-heading {
+      font-size: 0.8rem; 
+    }
+  
+    .service-description p {
+      font-size: 0.7rem; }
+  
+    .learn {
+      font-size: 0.6rem;}
+  
+    .button-container button {
+      font-size: 0.8rem; 
+      padding: 0.5rem 1rem; 
+    }
+  }
+  

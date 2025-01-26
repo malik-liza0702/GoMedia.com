@@ -1,0 +1,190 @@
+.why-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+  }
+  
+  .why-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  
+  .left-head {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .why-heading {
+    margin: 1rem 0;
+  }
+  
+  .why-heading p {
+    font-family: "Poppins", serif;
+    color: #0d1216;
+  }
+  
+  .why-heading h2 {
+    font-family: "Poppins", serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #272d37;
+  }
+  
+  .left-card {
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    
+  }
+  
+  .why-right {
+    display: flex;
+    /* flex: 1; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    background-color: aqua;
+    border: 1px solid #fcddec;
+  }
+  
+  .icon-div,
+  .text-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3rem;
+  }
+  
+  .text-div {
+    font-family: "Poppins", serif;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .text-div h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .text-div p {
+    font-size: 0.9rem;
+    margin: 0.3rem;
+    font-family: "Poppins", serif;
+  }
+  
+  #card1 {
+    background-color: #edf3ff;
+    
+  }
+  
+  #card2 {
+    background-color: #fef3ef;
+  }
+  
+  #card3 {
+    background-color: #f1fbf3;
+  }
+  
+  #card4 {
+    background-color: #fbf1fb;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 1024px) {
+    .why-container {
+      flex-direction: column;
+      padding: 2rem;
+    }
+  
+    .why-left,
+    .why-right {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .card-div {
+      justify-content: center;
+    }
+  
+    .card1 {
+      width: 100%;
+      max-width: 18rem;
+    }
+  
+    .why-heading h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .why-container {
+      padding: 1.5rem;
+    }
+  
+    .why-left,
+    .why-right {
+      width: 100%;
+      text-align: center;
+    }
+    .left-card{
+        justify-content: center;
+    }
+  
+    .card1 {
+      width: 100%;
+      margin: 1rem 0;
+    }
+  
+    .why-heading h2 {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .why-heading h2 {
+      font-size: 1.5rem;
+    }
+  
+    .card1 {
+      width: 100%;
+      margin: 0.5rem 0;
+    }
+  
+    .text-div h3 {
+      font-size: 0.8rem;
+    }
+  
+    .text-div p {
+      font-size: 0.7rem;
+    }
+  }
+  
+
+
+
+
+
+
+
+
