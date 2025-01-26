@@ -29,7 +29,7 @@ function Contact() {
       setContactMessage(myMessage);
     }
     try{
-      const response=await axios.post("http://localhost:4000/api/contact/create",contactMessage);
+      const response=await axios.post("https://gomedia-com.onrender.com/api/contact/create",contactMessage);
       console.log("contact created successfully..")
       toast.success("Message sent successfully")
 
