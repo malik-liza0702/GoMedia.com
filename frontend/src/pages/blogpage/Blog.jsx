@@ -65,7 +65,7 @@ function Blog() {
     const token = localStorage.getItem('token');
     if (!token) {
       console.log('No token found!');
-      return; // Handle the absence of token
+     // Handle the absence of token
     }
     try {
       await axios.delete(`https://gomedia-com.onrender.com/api/blog/delete/${id}`,{ headers: { Authorization: `Bearer ${token}` }});
