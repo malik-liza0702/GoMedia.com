@@ -22,7 +22,7 @@ const Login = () => {
     try {
       // Make a POST request to your login endpoint
       const response = await axios.post(
-        "http://localhost:4000/api/auth/login",
+        "https://gomedia-com.onrender.com/api/auth/login",
         { email, password }
       );
 
