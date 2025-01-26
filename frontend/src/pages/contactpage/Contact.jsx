@@ -46,6 +46,11 @@ function Contact() {
         <Navbar></Navbar>
         <div className="contact-image">
           <img src={contact} className="image"></img>
+          <div className="blog-heading-div">
+            <h1 className="blog-heading">
+              Get in touch with us...
+            </h1>
+          </div>
         </div>
         <div className="contact-us">
           <h1>Want to connect with us?</h1>
