@@ -17,7 +17,7 @@ function Blog() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:4000/api/blog/blogs")
+      .get("https://gomedia-com.onrender.com/api/blog/blogs")
       .then((response) => {
         console.log(response.data);
        
@@ -44,7 +44,7 @@ function Blog() {
       };
       try {
         const response = await axios.post(
-          "http://localhost:4000/api/blog/create",
+          "https://gomedia-com.onrender.com/api/blog/create",
           newBlog
         );
         console.log("blog created...");
@@ -68,7 +68,7 @@ function Blog() {
       return; // Handle the absence of token
     }
     try {
-      await axios.delete(`http://localhost:4000/api/blog/delete/${id}`,{ headers: { Authorization: `Bearer ${token}` }});
+      await axios.delete(`https://gomedia-com.onrender.com/api/blog/delete/${id}`,{ headers: { Authorization: `Bearer ${token}` }});
       toast.success("Deleted Successfully")
       setBlogs(blogs.filter((blog) => blog._id != id));
     } catch (error) {
@@ -89,7 +89,7 @@ function Blog() {
     try {
       event.preventDefault();
       const response = await axios.put(
-        `http://localhost:4000/api/blog/update/${selectedBlog._id}`,
+        `https://gomedia-com.onrender.com/api/blog/update/${selectedBlog._id}`,
         selectedBlog,{ headers: { Authorization: `Bearer ${token}` }}
       );
       console.log(response);
